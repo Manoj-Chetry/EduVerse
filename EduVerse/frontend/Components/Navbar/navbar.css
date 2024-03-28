@@ -9,15 +9,54 @@ html, body{
     width: 100%;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9vh;
+    border: none;
+    box-shadow: .5px .5px 20px #676767;
+    padding: 0 6vw;
+}
+
+#hamburger{
+    display: none;
+}
+
+#nav-container{
+    position: absolute;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%);
+    width: fit-content;
+}
+
+.nav-items{
+    margin-right: 2vw;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.user-icon{
+    font-size: 3.8vh;
+    cursor: pointer;
+}
+
+
+#logo{
+    font-size: 28px;
+}
+
+/* Mobile View */
+
 @media only screen and (max-width: 700px) {
+
     nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 9vh;
-        box-shadow: .5px .5px 20px #676767;
         padding: 0 12px;
     }
+
     #hamburger{
         width: 6.7vw;
         height: 35%;
@@ -33,9 +72,28 @@ html, body{
         border-radius: 4px;
     }
 
-    .user-icon{
-        font-size: 3.8vh;
-        cursor: pointer;
+    #logo{
+        font-size: 26px;
     }
+
+    #nav-container{
+        display: none;
+    }
+    
+
+}
+
+
+/* Tablet View */
+
+@media (min-width: 700px) and (max-width: 1300px){
+    nav{
+        padding: 0 22px;
+    }
+
+    .nav-items{
+        font-size: 18px;
+    }
+
 
 }
