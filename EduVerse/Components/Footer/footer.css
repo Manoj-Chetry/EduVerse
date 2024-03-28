@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    #footer{
+        height: fit-content;
+        padding: 30px 12px;
+        background-color: black;
+        margin-top: 40px;
+    }
+    #link-container{
+        height: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .links{
+        color: white;
+        text-decoration: none;
+        font-size: 3.4vw;
+        transition: all 0.2s ease;
+    }
+    .links:hover{
+        transition: all 0.2s ease-in-out;
+        color: rgb(4, 70, 150);
+    }
+}
+
+
