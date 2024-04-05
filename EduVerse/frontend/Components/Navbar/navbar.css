@@ -38,6 +38,9 @@ nav{
     text-decoration: none;
     color: black;
 }
+/* .nav-items:hover{
+    border-bottom: 4px solid red;
+} */
 
 .user-icon{
     font-size: 3.8vh;
@@ -48,6 +51,8 @@ nav{
 #logo{
     font-size: 28px;
 }
+
+
 
 /* Mobile View */
 
@@ -79,8 +84,32 @@ nav{
     #nav-container{
         display: none;
     }
-    
 
+    #links-cont{
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    #links-cont>a{
+        color: white;
+        font-size: 24px;
+        transition: 0.3s ease;
+        font-weight: 600;
+    }
+    #links-cont>a:hover{
+        color: blueviolet;
+        transition: all 0.3s ease;
+    }
+
+    #ham-btn{
+        border: none;
+        width: 30%;
+        background-color: transparent;
+        cursor: pointer;
+    }
 }
 
 

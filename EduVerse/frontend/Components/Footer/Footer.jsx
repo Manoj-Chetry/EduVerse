@@ -8,11 +8,13 @@ const Footer = () => {
         <div id="link-container">
             <Link className='links' href="/Login">Login</Link>
             <Link className='links' href="/Contact">Home</Link>
-            <Link className='links' href="/Contact">Courses</Link>
-            <Link className='links' href="/Contact">Courses</Link>
-            <Link className='links' href="/Contact">About</Link>
+            <Link className='links' href="/Courses">Courses</Link>
+            <Link className='links' href="/About">About</Link>
             <Link className='links' href="/Contact">Contact</Link>
         </div>
+        <h1 id='logo-footer'>
+        &#169; EduVerse
+        </h1>
     </footer>
   )
 }

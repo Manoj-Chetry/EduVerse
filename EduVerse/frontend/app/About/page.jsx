@@ -2,12 +2,12 @@ import Footer from '@/Components/Footer/Footer'
 import Navbar from '@/Components/Navbar/Navbar'
 import React from 'react'
 
-const Contact = () => {
+const About = () => {
   return (
     <div>
-      Contact
+        About
     </div>
   )
 }
 
-export default Contact
+export default About

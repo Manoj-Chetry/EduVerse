@@ -1,37 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 
 body{
     font-family: "Lato", sans-serif;
 }
 
-
-@media only screen and (max-width: 700px){
-    #header{
-        margin-top: 30px;
-        margin-bottom: 20px;
-        padding-left: 12px;
-        font-size: 5vw;
-        text-transform: capitalize;
-    }
-    
-    .courses{
-        width: 90vw;
-        margin: 0 auto;
-    }
-    .course-tags{
-        display: flex;
-        width: 90vw;
-        flex-wrap: wrap;
-    }
-    
-    .tags{
-        width: fit-content;
-        height: fit-content;
-        margin: 2vw;
-        font-size: 4vw;
-        padding: 1vw 2vw;
-        background-color: rgb(185, 185, 185);
-        border-radius: 2vw;
-    }
+body::-webkit-scrollbar{
+    display: none;
 }
