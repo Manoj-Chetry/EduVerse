@@ -1,0 +1,20 @@
+main {
+  text-align: center;
+  width: 80vw;
+  max-width: 300px;
+  margin: 20px auto;
+  min-height: 60vh;
+  overflow: auto;
+}
+
+main > h1 {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#redirect {
+  margin-top: 30px;
+}
